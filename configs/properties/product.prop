@@ -13,6 +13,10 @@ persist.sys.disable_rescue=true
 # DRM
 drm.service.enabled=true
 
+# Elixir 
+ro.elixir.maintainer=Zahran Ansaria
+org.elixir.device=Poco M3, REDMI 9T/9 POWER/ NOTE 9 4G
+
 # FUSE Passthrough
 persist.sys.fuse.passthrough.enable=true
 persist.sys.fuse.bpf.enable=false
