@@ -7,7 +7,7 @@
 $(call inherit-product, device/xiaomi/juice/device.mk)
 
 # Inherit some common ProjectElixir stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, $(CUSTOM_VENDOR_DIR)/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
